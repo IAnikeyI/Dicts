@@ -1,17 +1,5 @@
 import sqlite3 as sq
 import random
-#with sq.connect('EnglishDict.db') as con:
-    #cur = con.cursor()
-    #cur.execute("DROP TABLE trans")
-
-
-#with sq.connect('EnglishDict.db') as con:
-    #cur = con.cursor()
-    #cur.execute("""CREATE TABLE IF NOT EXISTS trans (
-	#Word TEXT,
-	#Translation TEXT,
-	#ID INTEGER) """)
-
 
 def file_open():
     note = []
